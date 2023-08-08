@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgb(201, 179, 222);
+    grid-area: ft;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin-left:40px;
+    margin-right:40px;
+}
+
+
+
+
+@media(max-width:550px) {
+    .footer {
+        margin-left:10px;
+        margin-right:10px;
+
+
+    }
+}

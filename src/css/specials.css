@@ -1,0 +1,19 @@
+.specials-title {
+    margin-top: 30px;
+    display: flex;
+    gap: 30%;
+    margin-left: 60px;
+}
+
+.h2-title-specials {
+    color: black;
+    font-family: 'Markazi Text', serif;
+}
+@media(max-width:550px) {
+    .specials-title {
+        margin-top: 30px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+
+}

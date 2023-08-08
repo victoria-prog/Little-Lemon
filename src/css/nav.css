@@ -1,0 +1,55 @@
+.nav {
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin-left:40px;
+    margin-right:40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(78, 72, 72);
+    font-family: "Markazi";
+}
+
+@media(max-width:550px) {
+    .nav {
+        grid-area: nav;
+        border-radius: var(--main-radius);
+        padding-top: var(--main-padding);
+        margin-left:10px;
+        margin-right:10px;
+        justify-content: center;
+
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+       grid-gap: 0.4rem;
+    }
+  }
+
+  @media(max-width:810px) {
+    .nav {
+        grid-area: nav;
+        border-radius: var(--main-radius);
+        padding-top: var(--main-padding);
+        margin-left:10px;
+        margin-right:10px;
+        justify-content: center;
+
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0.4rem;
+    }
+  }

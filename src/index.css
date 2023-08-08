@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --main-radius:5px;
+  --main-padding:5px;
+
+}
+
+.box {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 0.2fr 2.9fr 0.2fr;
+  grid-template-areas:
+ 
+  "nav nav nav nav nav nav nav nav nav nav nav nav"
+  "main main main main main main main main main main main main"
+  "ft ft ft ft ft ft ft ft ft ft ft ft";
+
+  grid-gap: 0.2rem;
+}
+
+
+
+@media(max-width:550px) {
+  .box {
+      display: grid;
+      height:200vh;
+     grid-column: 100%;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows:   0.4fr 2.2fr 1fr;
+     grid-template-areas:
+                          "nav nav nav nav"
+                          "main main main main"
+                          "ft ft ft ft";
+     grid-gap: 0.4rem;
+  }
+}
+
+@media(max-width:810px) {
+  .box {
+      display: grid;
+      height:200vh;
+     grid-column: 100%;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows:   0.4fr 2.2fr 1fr;
+     grid-template-areas:
+                          "nav nav nav nav nav nav"
+                          "main main main main main main"
+                          "ft ft ft ft ft ft";
+     grid-gap: 0.4rem;
+  }
 }

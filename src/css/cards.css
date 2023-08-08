@@ -1,0 +1,54 @@
+.cards {
+    margin-top: 40px;
+    margin-left:150px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.card {
+    width: 15rem;
+
+}
+
+.card-title {
+    font-family: "Karla, san-serif";
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: "Karla, san-serif";
+    font-size: 13px;
+}
+
+
+.card-img-top {
+    height: 20vh;
+    object-fit: cover;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+    font-family: "Markazi, san-serif";
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+
+}
+
+@media(max-width:550px) {
+    .cards {
+        margin-left:10px;
+        display: flex;
+    }}
+    .card-title {
+        font-family: "Karla, san-serif";
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .card-text {
+        font-family: "Karla, san-serif";
+        font-size: 10px;
+    }

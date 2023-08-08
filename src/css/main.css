@@ -1,0 +1,15 @@
+.main {
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+
+}
+
+@media(max-width:550px) {
+    .main{
+    grid-area: main;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    }
+}
+
