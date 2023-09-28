@@ -1,0 +1,58 @@
+.btn-submit {
+    background-color: #dfe5f5;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-submit:hover {
+    background-color: #adb1bb;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-submit::after {
+    background-color: #4e7f51;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+
+}
