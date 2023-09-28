@@ -1,14 +1,6 @@
-import {
-  render,
-  screen,
-  fireEvent,
-  getByLabelText,
-  getAllByAltText,
-} from "@testing-library/react";
-import App from "./App";
+import { render, screen, fireEvent } from "@testing-library/react";
 import BookingForm from "./components/BookingFrom";
 import BookingPage from "./components/BookingPage";
-import userEvent from "@testing-library/user-event";
 import { MemoryRouter as Router } from "react-router-dom";
 
 test("Renders the BookingForm heading", () => {
@@ -42,7 +34,7 @@ test("renders BookingForm", () => {
   expect(dateLabel).toBeInTheDocument();
 });
 
-it("shows correct available times", () => {
+it("bookingForm works as expected", () => {
   const handleSubmit = jest.fn();
   const times = ["10-00", "11-00", "12-00"];
   const handleDispatch = jest.fn();
