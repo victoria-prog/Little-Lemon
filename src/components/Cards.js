@@ -1,7 +1,5 @@
 import React from "react";
 import "../css/cards.css";
-import greek_salad from "../images/greek_salad.png";
-import bicycle from "../images/bicycle.png";
 
 const Cards = ({ cards }) => {
   return (
@@ -15,8 +13,8 @@ const Cards = ({ cards }) => {
               <p className="card-text" style={{ color: "black" }}>
                 {card.description}
               </p>
-              <a href="#" class="card-link">
-                <span class="material-symbols-outlined">pedal_bike </span>
+              <a href="#" className="card-link">
+                <span className="material-symbols-outlined">pedal_bike </span>
                 Order a delivery
               </a>
             </div>
