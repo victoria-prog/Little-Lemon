@@ -60,4 +60,5 @@ it("bookingForm works as expected", () => {
   expect(dateInput.value).toBe("2023-06-01");
   expect(timeSelect.value).toBe("10-00");
   expect(occasion.value).toBe("Birthday");
+  expect(guestsInput.value).toBe("2");
 });
